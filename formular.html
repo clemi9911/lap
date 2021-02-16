@@ -1,0 +1,18 @@
+<html>			<!-- Zum aufbauen als 1. Html Head im internet eingeben = w3schools seite -->
+<meta charset="utf8">  <!-- Beachten damit umlaute richtig dasatehen -->
+<head>
+  <title>DVD Verleih</title>
+</head>
+<body>
+	Bei Eingabe vom Wert 0 werden alle Verleihvorgänge entweder alle Kunden oder genau die Kunden ID angezeigt
+		<!-- die Action als 2. im Internet = Form Action eingeben und von w3schools kopieren -->
+	<form action="verleihdvd.php" method="POST">  <!-- Wichtig method POST -->
+		<label for="kunde">Kunden-ID:</label> <br>
+		<input type="text" id="kunde" name="kunde" value="1"><br>   <!-- Value = 1 bedeutet das schon die Nummer 1 drinsteht ist nicht zwingend notwendig -->
+		<label for="dvd">Dvd-ID:</label> <br>
+		<input type="text" id="dvd" name="dvd" value=""><br>
+		<input type="submit" value="Verleih anzeigen">
+	</form>
+
+</body>
+</html>
